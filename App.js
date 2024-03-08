@@ -9,8 +9,8 @@ function App() {
   return (
     <ChatEngine
        height = "100vh"
-       projectID = "20ae007e-1789-43d9-bbd1-70b24f28ed2e"
-       userName = "Kartikaryan"
+       projectID = "33bf07f5-c2c2-4295-84ee-1abc9f20b807"
+       userName = "aliabhatt"
        userSecret = "123456"
        // we use spread operator(...) to pass down all attributes from props object to child
        renderChatFeed = {(chatAppProps)=><ChatFeed {...chatAppProps}/>}
